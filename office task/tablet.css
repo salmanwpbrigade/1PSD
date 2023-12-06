@@ -1,0 +1,209 @@
+@media (min-width: 651px) and (max-width: 1080px){
+
+
+
+    #msgbar{
+        font-size: small;
+        height: 50px;
+    }
+    #crossdiv{
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #msgbar p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+    }
+    #mainheader{
+        height: 60px;
+    }
+    #logo{
+        height: 100%;
+        margin-left: 2%;
+    }
+    #logo img{
+        height: 30px;
+    }
+
+    #buttons{
+        height: 100%;
+        margin-right: 2%;
+    }
+    #navbar{
+        margin-left: 1%;
+    }
+    #search{
+        margin-left: 18%;
+        width: 75%;
+    }
+    #navbarhead{
+        height: 70px;
+        padding: 0px 15px;
+        justify-content: space-between;
+    }
+    #navbar ul
+    {   display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 60px;
+    }
+    #reebokimg{
+        margin-left: 22px;
+        position: relative;
+        z-index: 1;
+    }
+    #reebok::before{
+        position: absolute;
+        border: 40px solid white;
+        content: " ";
+        border-top-color: transparent;
+        border-left-color: transparent;
+        right: 100%;
+        transform: skew(35deg);
+        top: 0;
+        transform-origin: top left;
+    }
+    #hometitle{
+        font-family: 'Bebas Neue', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #home{
+        padding: 0px;
+    }
+
+    #homebar{
+        height: 80px;
+
+    }
+    #reebok{
+        width: auto;
+        height: 80px;
+    }
+    #hometitle{
+        margin-left: 25px;
+    }
+    #navbar nav ul li{
+        padding: 30px 11px;
+        font-size:14px;
+    }
+    #content{
+        width: 73%;
+        font-size: 17px;
+    }
+    #mainslider{
+        height: 500px;
+    }
+    .slide{
+        height: 500px;
+    }
+    #anothr-img {
+        height: auto;
+        width: auto;
+    }
+    #anothr-img img {
+        height: auto;
+        width: 301px;
+        padding: 38px;
+        box-sizing: border-box;
+    }
+    .slide1{
+        padding: 10px;
+    }
+    .owl-theme .owl-nav{
+        display: none;
+    }
+    .slider{
+        padding-top: 40px;
+    }
+    #item-container{
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #item-slider{
+        width: 95%;
+        height: 100%;
+        padding-bottom: 35px;
+        border-bottom: 2px solid rgb(255, 255, 255);
+    }
+    .slide-content p{
+        margin: 15px 0px;
+    }
+    #Card-container{
+        flex-wrap: wrap;
+        padding: 20px;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+    }
+    .carts{
+        width: 45% ;
+        margin: 10px;
+    }
+    .carts-info{
+        height: 100px;
+    }
+    #left-container{
+        height: auto;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    #call-to-action-container{
+        margin-left: 28px;
+    }
+    #call-to-action-1{
+        height: 150px;
+    }
+    #sub-container {
+        margin-right: 33px;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 5px;
+    }
+
+    #news-content1{
+        height: 150px;
+    }
+    .news-content p{
+        font-size: 1.5vw;
+    }
+    .news-content h3{
+        font-size: 1.7vw;
+    }
+    .news-content{
+        padding: 20px 15px;
+    }
+    #lower-news{
+        height: 150px;
+    }
+    #news-content2{
+        height: 150px;
+    }
+
+    .aside{
+        padding-bottom: 135%;
+        width: 30%;
+        height: auto;
+    }
+    #form{
+        width: 97%;
+    }
+    .event-numbering{
+        margin: 5px;
+    }
+    #event-container{
+        
+    padding-top: 71px;
+    margin-left: 14px;
+    width: 91%;
+    }
+    .event-titles{
+        font-size: 2vw;
+        color: white;
+    }
+
+}
